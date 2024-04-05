@@ -1,5 +1,5 @@
 import gameEngine from '../gameEngine.js';
-import { getRandomNumber, randomEquasion } from '../utils.js';
+import { getRandomNumber, randomEquasion } from '../nautilus.js';
 
 const rule = 'What is the result of the expression?';
 

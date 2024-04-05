@@ -1,5 +1,5 @@
 import gameEngine from '../gameEngine.js';
-import { getRandomNumber } from '../utils.js';
+import { getRandomNumber } from '../nautilus.js';
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
