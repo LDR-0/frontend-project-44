@@ -17,15 +17,21 @@ const getProgression = (startProgression, stepProgression) => {
 const getQuestionAndAnswer = () => {
   const minStep = 2;
   const maxStep = 10;
+
   const start = getRandomNumber(1, 100);
   const step = getRandomNumber(minStep, maxStep);
+
   const progression = getProgression(start, step);
+
   const minIndexOfHiddenNumber = 0;
   const maxIndexOfHiddenNumber = progressionLength - 1;
   const indexOfHiddenNumber = getRandomNumber(minIndexOfHiddenNumber, maxIndexOfHiddenNumber);
+
   const answer = String(progression[indexOfHiddenNumber]);
   progression[indexOfHiddenNumber] = '..';
+
   const question = progression.join(' ');
+
   return [question, answer];
 };
 
