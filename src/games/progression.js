@@ -1,5 +1,5 @@
 import gameEngine from '../gameEngine.js';
-import { getRandomNumber } from '../nautilus.js';
+import { getRandomNumber } from '../mathUtils.js';
 
 const rule = 'What number is missing in the progression?';
 
